@@ -1,0 +1,8 @@
+variable "resource_group_name" { type = string }
+variable "location" { type = string }
+variable "tags" { type = map(string) }
+
+variable "apim_name" { type = string }
+variable "publisher_name" { type = string }
+variable "publisher_email" { type = string }
+
